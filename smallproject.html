@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<body>
+    <button id="button">Get User</button>
+    <div id="card"></div>
+    
+</body>
+    <SCript>
+        const button = document.getElementById('button')
+        button.addEventListener('click',  async()=>{
+            try {
+                const response = await fetch("https://randomuser.me/api/")
+                const data = await response.json()
+                const user = data.results[0]
+
+                
+                document.getElementById('card').innerHTML=`
+                <img src="${user.picture.large}" <br>
+                <h1>name: ${user.name.first} ${user.name.last}</h1>
+                <p>email:${user.email} </p>
+                `
+            }
+
+             catch (error) {
+                console.log(error)
+            }
+        })
+       
+    </SCript>
+</html>
