@@ -1,5 +1,7 @@
+# API TWO PROJECTS
 
-# User Card App 🪪
+
+ 1. USER CARD APP
 
 A simple web app that fetches random user data 
 from an API and displays it on screen.
@@ -17,7 +19,7 @@ from an API and displays it on screen.
 - Uses real API data
 
 ##  Live Demo
-[Click here to see live] https://github.com/Sami-devs/user-card_app/blob/main/smallproject.html
+[Click here ] https://github.com/Sami-devs/user-card_app/blob/main/smallproject.html
 
 ##  What I Learned
 - How to use Fetch API
@@ -29,3 +31,23 @@ from an API and displays it on screen.
 1. Clone the repository
 2. Open index.html in browser
 3. Click "Get User" button
+
+
+
+2.JOKE GENERATOR 😄
+
+A simple web app that fetches a random joke from an API and displays it on screen.
+
+##  Built With
+- HTML
+- JavaScript
+- Fetch API
+- Async/Await
+
+##  Live Demo
+[Click here](https://sami-devs.github.io/projecto/)
+
+##  What I Learned
+- How to use Fetch API
+- How to handle errors with response.ok
+- How to use Async/Await
