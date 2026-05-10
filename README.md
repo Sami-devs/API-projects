@@ -19,7 +19,7 @@ from an API and displays it on screen.
 - Uses real API data
 
 ##  Live Demo
-[Click here ] https://github.com/Sami-devs/user-card_app/blob/main/smallproject.html
+[Click here ](https://github.com/Sami-devs/API-projects/blob/main/usercard.html)
 
 ##  What I Learned
 - How to use Fetch API
