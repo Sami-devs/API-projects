@@ -45,7 +45,7 @@ A simple web app that fetches a random joke from an API and displays it on scree
 - Async/Await
 
 ##  Live Demo
-[Click here](https://sami-devs.github.io/projecto/)
+[Click here](https://github.com/Sami-devs/API-projects/blob/main/jokefetch.html)
 
 ##  What I Learned
 - How to use Fetch API
